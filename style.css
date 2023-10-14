@@ -220,23 +220,27 @@
     }
 
     /*style="text-align: center"*/
-      
-.dm{
-    align-text:center;
-    align-content: center;
-}
 
-.hinhanh {text-align: center;}
+    #wp-products{
+    padding-top: 116px;
+    padding-bottom: 78px;
+    padding-left: 134px ;
+    padding-right: 134px;
+ }
 
-.button1 {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
+ .wp-products.h2{
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    margin-bottom: 76px;
+    font-size: 32px;
+    color:#357c7d;
+ }
+
+  #list-product {
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
   }
 
 }
